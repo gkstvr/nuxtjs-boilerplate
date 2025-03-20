@@ -65,15 +65,7 @@ export default defineNuxtConfig({
     },
   },
 
-  auth: {
-    github: {
-      enabled: true,
-      clientId: '',
-      clientSecret: '',
-    },
-  },
   nitro: {
-    preset: 'azure',
     plugins: ['plugins/http-agent'],
   },
   runtimeConfig: {
@@ -81,7 +73,7 @@ export default defineNuxtConfig({
     session: {
       // set to 6h - same as the GitHub token
       maxAge: 60 * 60 * 6,
-      password: '',
+      password: 'nRDZaRtZBaXMbS3p8XpZ7vst3S6bDTMg',
     },
     oauth: {
       github: {
